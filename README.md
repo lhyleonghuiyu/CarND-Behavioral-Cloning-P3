@@ -12,13 +12,6 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/placeholder.png "Model Visualization"
-[image2]: ./examples/placeholder.png "Grayscaling"
-[image3]: ./examples/placeholder_small.png "Recovery Image"
-[image4]: ./examples/placeholder_small.png "Recovery Image"
-[image5]: ./examples/placeholder_small.png "Recovery Image"
-[image6]: ./examples/placeholder_small.png "Normal Image"
-[image7]: ./examples/placeholder_small.png "Flipped Image"
 
 ## 1. Required files 
 
@@ -43,19 +36,10 @@ The model.py file contains the code for training and saving the convolution neur
 
 To capture good driving behavior, I first recorded one lap on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
-
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to steer to the center of the lane should it veer off. These images show what a recovery looks like starting from ... :
-
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-
 
 The dataset was then augmented by flipping the camera images and their steering angle measurements. For example, here is an image that has then been flipped:
 
-![alt text][image6]
-![alt text][image7]
 
 ### Processing techniques
 
